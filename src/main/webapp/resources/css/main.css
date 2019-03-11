@@ -1,0 +1,184 @@
+
+/*** NAVBAR ***/
+/* Navbar background color */
+.navbar-default {
+	background-image: linear-gradient(to bottom,#0f416d 0,#0f416c 100%);
+}
+
+/* Navbar font color */
+.navbar-default .navbar-brand {
+    color: white;
+}
+
+.navbar-default .navbar-brand:hover {
+	color: #d2d2d2;
+}
+
+/*** BASE CLASSES ***/
+/* Anchor default color */
+a {
+	color: #0f416c;
+	cursor: pointer;
+}
+
+/* Main body color */
+body {
+	background-color: #f2f9ff;
+}
+
+/* Main classes colors, size and margin */
+h2 {
+	color: #174975;
+	display: inline;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h3 {
+	color: #174975;
+	margin-left: 20px;
+}
+
+/*** IMAGES ***/
+
+/* Centered image default */
+.center-image{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Error image size */
+.error-image{
+	height: auto;
+	width: 250px;
+	margin-bottom: 10px;
+}
+
+/*** MISC ***/
+
+/* Center div */
+.center-div{
+	display: table;
+  	margin: 0 auto;
+}
+
+/* Labels and Buttons*/
+
+.label-primary{
+	background-color: #0f416c;
+}
+
+.btn-primary{
+	background-image:  linear-gradient(to bottom,#0f416c 0,#0f416d 100%);;
+}
+
+.btn-footer{
+	margin-bottom: -15px;
+}
+
+.label-title{
+	font-size: 20px;
+}
+
+.label-sub-title{
+	font-size: 16px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.label-panel{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.label-info{
+	margin-bottom: -15px;
+	margin-top: 5px;
+}
+
+.label-panel-body{
+	display: table;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+}
+
+/* Panel heading default color */
+.panel-default>.panel-heading{
+	background-image: linear-gradient(to bottom,#ddd 0,#e8e8e8 100%)
+}
+
+.panel-default>.panel-footer{
+	background-image: linear-gradient(to top,#ddd 0,#e8e8e8 100%)
+}
+
+.col-md-4 {
+	padding-right: 30px;
+	padding-left: 30px;
+}
+
+/* Password input standard font size */
+.password-input {
+	font-size: 24px;
+}
+
+/* Centers label */
+.label-center-panel{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Input margin */
+.form-horizontal .form-group {
+	margin-right: 10%;
+	margin-left: 10%;
+}
+
+/* Drop down in panel */
+.dropdown-btn{
+	display: block;
+	margin-right: auto;
+	width: 62%;
+}
+
+.dropdown-panel{
+}
+
+/* Elementsdrop down in panel */
+.open>.dropdown-panel {
+	position: relative;
+    display: block;
+    width: 62%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* Navbar default mobile toggle color */
+.navbar-default, .navbar-default .navbar-toggle:hover {
+	background-color: #4a4a4a;
+	border-color: white;
+}
+
+.navbar-toggle:focus {
+	background-color: #144672;
+}
+
+/* Navbar default elements font color */
+.navbar-default .navbar-nav>li>a {
+	color: white;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+	color: #d2d2d2;
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+	color: white;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.open>a {
+	background-image: linear-gradient(to bottom,#0b2e4c 0,#0b2e4c 100%);
+}

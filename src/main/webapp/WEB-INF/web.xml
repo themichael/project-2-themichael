@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	version="2.5">
+
+	<display-name>ERS</display-name>
+
+	<welcome-file-list>
+		<welcome-file>/login.jsp</welcome-file>
+	</welcome-file-list>
+
+	<!-- Master Servlet Declaration -->
+	<servlet>
+		<servlet-name>MasterServlet</servlet-name>
+		<servlet-class>com.revature.request.MasterServlet</servlet-class>
+	</servlet>
+
+	<!-- Master Servlet Mapping -->
+	<servlet-mapping>
+		<servlet-name>MasterServlet</servlet-name>
+		<url-pattern>*.do</url-pattern>
+	</servlet-mapping>
+
+	<!-- Error pages -->
+	<error-page>
+		<error-code>404</error-code>
+		<location>/404.do</location>
+	</error-page>
+
+	<error-page>
+		<error-code>403</error-code>
+		<location>/403.do</location>
+	</error-page>
+
+	<error-page>
+		<exception-type>java.lang.Throwable</exception-type>
+		<location>/oops.do</location>
+	</error-page>
+</web-app>
