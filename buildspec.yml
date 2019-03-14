@@ -1,5 +1,8 @@
 version: 0.1
-phases:
+phases: 
+  install:
+    commands:
+      - mvn install:install-file -Dfile="/home/ec2-user/Jars/ojdbc7.jar" -DgroupId="com.oracle" -DartifactId="ojdbc7" -Dversion="12.1.0" -Dpackaging="jar"
   build:
     commands:
       - echo Welcome to the pipeline
