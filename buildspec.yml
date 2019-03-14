@@ -1,6 +1,6 @@
 version: 0.1
 phases:
-  buuild:
+  build:
     commands:
       - echo Welcome to the pipeline
       - mvn clean package
