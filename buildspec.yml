@@ -2,6 +2,7 @@ version: 0.1
 phases: 
   install:
     commands:
+      - mkdir /home/ec2-user/Jars
       - mvn install:install-file -Dfile="/home/ec2-user/Jars/ojdbc7.jar" -DgroupId="com.oracle" -DartifactId="ojdbc7" -Dversion="12.1.0" -Dpackaging="jar"
   build:
     commands:
