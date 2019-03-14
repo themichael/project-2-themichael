@@ -1,0 +1,9 @@
+version: 0.1
+ phases:
+  buuild:
+    commands:
+      - echo Welcome to the pipeline
+      - mvn clean package
+artifacts:
+  files: 
+    - target/ERS.war

@@ -10,6 +10,10 @@
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<maven.compiler.target>1.8</maven.compiler.target>
 	</properties>
+	<build>
+		<!-- Modify final delivarable name -->
+		<finalName>ERS</finalName>
+	</build>
 
 	<dependencies>
 		<!-- OJDB7 Local Maven Repository -->
