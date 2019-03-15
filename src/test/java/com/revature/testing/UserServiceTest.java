@@ -17,7 +17,7 @@ public class UserServiceTest {
     @Before
     public void setUp() {
     	//Existing User in TEST DB
-    	testUser = new User("palagnajr","");
+    	testUser = new User("REIMBURSEMENT_DB","");
     	//Invalid credentials
     	testLoginUser = new User("palagnajr","12345678");
     }
