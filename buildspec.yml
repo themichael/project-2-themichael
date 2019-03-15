@@ -6,7 +6,7 @@ phases:
   build:
     commands:
       - mvn package
-      - echo Welcome to the pipeline
+      - echo welcome to the pipeline
       
 artifacts:
   files: 
