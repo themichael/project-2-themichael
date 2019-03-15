@@ -6,7 +6,7 @@ phases:
   build:
     commands:
       - echo Welcome to the pipeline
-      - mvn clean package
+      
 artifacts:
   files: 
     - target/ERS.war
